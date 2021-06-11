@@ -1,0 +1,14 @@
+.background {
+	position: relative;
+}
+.bg-image {
+	width: 10000px;
+	height: 1500px;
+}
+.img-1 {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	right: 100px;
+	bottom: 1120px;
+}
