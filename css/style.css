@@ -20,11 +20,31 @@
 }
 .boat {
 	position: absolute;
-	bottom: 400px;
+	bottom: 50px;
 	right: 200px;
+	width: 300px;
+	height: 150px;
 	animation: boat 20s infinite;
 }
 @keyframes boat{
 	0% {right: 200px;}
-	100% {right: 300px;}
+	20%{right: 300px;}
+	40%{right: 400px;}
+	60%{right: 500px;}
+	80%{right: 600px;}
+	100% {right: 700px;}
+}
+.dolphin {
+	position: absolute;
+	bottom: 150px;
+	left: 50px;
+	width: 180px;
+	height: 50px;
+	animation: dolphin 10s infinite;
+}
+@keyframes dolphin {
+	0% {left: 50px; bottom: 150px; transform: rotate(-15deg);}
+	25% {left: 150px; bottom: 170px; transform: rotate(0deg);}
+	50% {left: 300px; bottom: 180px; transform: rotate(15deg);}
+	100% {left: 450px; bottom: 150px; transform: rotate(30deg);}
 }
